@@ -16,9 +16,9 @@ import lombok.RequiredArgsConstructor;
 
 @Entity
 @Data
-@NoArgsConstructor
-@RequiredArgsConstructor
-@AllArgsConstructor
+//@NoArgsConstructor
+//@RequiredArgsConstructor
+//@AllArgsConstructor
 public class PasswordResetToken {
 	
 	@GeneratedValue(strategy = GenerationType.IDENTITY)

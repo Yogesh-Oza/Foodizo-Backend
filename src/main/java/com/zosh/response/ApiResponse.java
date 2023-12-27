@@ -1,11 +1,12 @@
 package com.zosh.response;
-
-import lombok.AllArgsConstructor;
 import lombok.Data;
-import lombok.NoArgsConstructor;
 
-@AllArgsConstructor
-@NoArgsConstructor
+//import lombok.AllArgsConstructor;
+//import lombok.NoArgsConstructor;
+
+//@AllArgsConstructor
+//@NoArgsConstructor
+
 @Data
 public class ApiResponse {
 	
