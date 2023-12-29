@@ -49,7 +49,8 @@ public class AppConfig {
                 cfg.setAllowedOrigins(Arrays.asList(
                     "http://localhost:3000",
                     "http://localhost:4200",
-                    "https://invoker23.000webhostapp.com/"
+                    "https://invoker23.000webhostapp.com/",
+                    "https://yogesh-oza.github.io/Foodizo-FrontEnd/"
                 ));
                 cfg.setAllowedMethods(Collections.singletonList("*"));
                 cfg.setAllowCredentials(true);
