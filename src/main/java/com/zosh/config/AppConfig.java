@@ -48,9 +48,9 @@ public class AppConfig {
                 CorsConfiguration cfg = new CorsConfiguration();
                 cfg.setAllowedOrigins(Arrays.asList(
                     "http://localhost:3000",
+                    "https://yogesh-oza.github.io/Foodizo-FrontEnd/",
                     "http://localhost:4200",
-                    "https://invoker23.000webhostapp.com/",
-                    "https://yogesh-oza.github.io/Foodizo-FrontEnd/"
+                    "https://invoker23.000webhostapp.com/"
                 ));
                 cfg.setAllowedMethods(Collections.singletonList("*"));
                 cfg.setAllowCredentials(true);
