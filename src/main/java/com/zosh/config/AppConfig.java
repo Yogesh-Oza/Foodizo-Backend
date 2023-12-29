@@ -50,7 +50,9 @@ public class AppConfig {
                     "http://localhost:3000",
                     "https://yogesh-oza.github.io/Foodizo-FrontEnd/",
                     "http://localhost:4200",
+                    "https://yogesh-oza.github.io",
                     "https://invoker23.000webhostapp.com/"
+//                    sadasdasdsdas
                 ));
                 cfg.setAllowedMethods(Collections.singletonList("*"));
                 cfg.setAllowCredentials(true);
